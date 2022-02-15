@@ -56,7 +56,7 @@ else:
     "-DUSES_C018",  # TTN/RN2483
 #   "-DUSES_C015",  # Blynk
 #    "-DUSES_P124",  # Output - I2C Multi Relay [TESTING]
-    "-DUSES_P126", # Radiohead
+    "-DUSES_P126", # RF433 Events
 
 #    "-DFEATURE_MDNS",
 #    "-DFEATURE_SD",

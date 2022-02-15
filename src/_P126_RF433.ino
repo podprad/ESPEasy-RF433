@@ -52,6 +52,8 @@ boolean Plugin_126(uint8_t function, struct EventStruct *event, String &string)
   case PLUGIN_INIT:
   {
     int rxPin = Settings.TaskDevicePin1[event->TaskIndex];
+
+    // We do not receive, however RH_ASH needs this pin.
     int txPin = Settings.TaskDevicePin2[event->TaskIndex];
 
     if (rxPin < 0 || txPin < 0){
